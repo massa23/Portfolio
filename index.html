@@ -281,7 +281,7 @@
     padding: 2.5rem;
     position: relative;
   }
-
+  .exp-card + .exp-card { margin-top: 1.5rem; }
   .exp-header {
     display: flex;
     justify-content: space-between;
@@ -732,7 +732,20 @@
       <div class="section-tag">Work</div>
       <h2>Experience</h2>
     </div>
-
+    <div class="exp-card reveal">
+      <div class="exp-header">
+        <div>
+          <div class="exp-company">Utience Teknoloji A.Ş.</div>
+          <div class="exp-role">Software Engineering and Artificial Intelligence Intern</div>
+        </div>
+        <div class="exp-date">Jul 2026 – Sep 2026 · Istanbul</div>
+      </div>
+      <ul class="exp-list">
+        <li>Built a speech dataset platform with Python, FastAPI, PostgreSQL, Docker, MinIO, and FFmpeg.</li>
+        <li>Engineered REST APIs, database schemas, authentication, and RBAC for speech data management.</li>
+        <li>Collected 200 voice recordings and prepared them to fine-tune the Whisper large-v3 STT model.</li>
+      </ul>
+    </div>
     <div class="exp-card reveal">
       <div class="exp-header">
         <div>
